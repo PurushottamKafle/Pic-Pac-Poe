@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/play"
+        android:id="@+id/play"
+        app:showAsAction="never"
+
+        />
+
+    <item android:title="@string/login"
+             android:id="@+id/login"
+             app:showAsAction="never"
+        />
+
+    <item android:title="@string/aboutus"
+          android:id="@+id/about"
+              app:showAsAction="never"
+
+        />
+    <item android:title="@string/explore"
+        android:id="@+id/explore"
+        app:showAsAction="always" />
+</menu>

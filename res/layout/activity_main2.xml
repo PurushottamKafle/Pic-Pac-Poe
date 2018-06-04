@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.picpacpoe.Main2Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="999dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="34dp"
+            android:lines="4"
+            android:text="@string/about_app"
+            android:textColor="#000"
+            android:textIsSelectable="false"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pklogo"
+            android:layout_marginLeft="99dp"
+            android:layout_marginStart="99dp"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignStart="@+id/button2" />
+
+        <include layout="@layout/toolbar" android:id="@+id/tb1"/>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="100dp"
+            app:srcCompat="@drawable/profile"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:visibility="visible"
+            tools:text="@string/app_name"
+            android:layout_below="@+id/imageView10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple"
+            android:text="PLAY NOW!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/imageView14"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/circle"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView11"
+            android:layout_marginTop="29dp"
+            app:srcCompat="@drawable/cross" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

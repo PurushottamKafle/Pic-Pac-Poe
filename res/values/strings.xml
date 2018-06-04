@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pic Pac Poe</string>
+    <string name="button">Re-Try</string>
+    <string name="play">Play FREE!</string>
+    <string name="login">Login</string>
+<string name="explore">Explore</string>
+
+    <string name="aboutus">About</string>
+    <string name="about_app">
+Pic Pac Poe (BETA) \n \n
+   Develop by PK Production
+        \n \n
+        \n
+
+</string>
+
+    <string name="about_app2">
+Pic Pac Poe (BETA) \n \n
+      Developer : Purushottam Kafle \n
+        Software : Reedbook \n
+        ©Copyright 2018 \n
+      \n
+
+</string>
+
+
+</resources>
